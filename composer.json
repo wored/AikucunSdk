@@ -1,0 +1,19 @@
+{
+  "name": "wored/aikucunsdk-sdk",
+  "description": "爱库存sdk",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "qiliu",
+      "email": "qiliuf@gmail.com"
+    }
+  ],
+  "require": {
+    "hanson/foundation-sdk": "3.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wored\\AikucunSdk\\": "src"
+    }
+  }
+}
