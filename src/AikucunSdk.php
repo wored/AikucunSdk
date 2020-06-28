@@ -23,8 +23,8 @@ class AikucunSdk extends Foundation
         parent::__construct($config);
     }
 
-    public function request(string $interfaceName, array $params = [], string $noncestr = '')
+    public function request(string $interfaceName, array $params = [])
     {
-        return $this->api->request($interfaceName, $params,$noncestr);
+        return $this->api->request($interfaceName, $params);
     }
 }
