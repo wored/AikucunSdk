@@ -3,8 +3,6 @@
 namespace Wored\AikucunSdk;
 
 use Hanson\Foundation\AbstractAPI;
-use Hanson\Foundation\Log;
-use Illuminate\Support\Str;
 
 class Api extends AbstractAPI
 {
